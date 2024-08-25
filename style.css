@@ -1,0 +1,69 @@
+body {
+    font-family: 'Poppins';
+    background-color: #777777;
+    margin: 0em 1em;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+#app {
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em black;
+    max-width: 35em;
+    margin: 2em auto;
+    background-image: linear-gradient(to right, rgb(33, 138, 180), rgb(90, 173, 241), rgb(33, 138, 180));
+    outline: 0.25em solid rgba(255, 255, 255, 0.452);
+    backdrop-filter: blur(2em);
+}
+
+input[type='text'] {
+    padding: 0.75em 0.75em;
+    font-size: 1.2rem;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 0.75em 0.75em;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1em;
+    background-color: #0f74e0;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin: 0.5em 0.5em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.note {
+    display: flex;
+    background-color: #f9f9f9;
+    outline: 0.2em solid rgba(255, 255, 255, 0.301);
+    box-shadow: 0 0 0.3em black;
+    border-radius: 1em;
+    padding: 0em 0.75em;
+    margin: 1em 1em;
+    position: relative;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.note button {
+    position: absolute;
+    border-radius: 0.75em;
+    top: 0.3em;
+    right: 0.25em;
+    padding: 0.75em;
+    background-color: #dc3545;
+}
